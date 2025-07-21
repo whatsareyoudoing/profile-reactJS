@@ -12,7 +12,7 @@ const HomePage = () => {
       <div className="hero grid md:grid-cols-2 grid-cols-1 pt-32">
         <div className="box lg:pt-32">
           <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
-            Belajar Membuat Website Menggunakan <span className="font-bold text-sky-400 underline">ReactJS & Tailwind css</span>
+            Koneksi Stabil, Aplikasi Handal, <span className="font-bold"> Semua dari Satu Tangan.</span>
           </h1>
           <p className="text-base/8 mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia architecto quas aliquam assumenda corrupti deserunt corporis natus veniam maiores.</p>
           <a href="#" className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full">
