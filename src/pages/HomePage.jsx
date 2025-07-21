@@ -10,12 +10,21 @@ const HomePage = () => {
   return <div className="homepage pb-10">
     <div className="container mx-auto px-4">
       <div className="hero grid md:grid-cols-2 grid-cols-1 pt-32">
-        <div className="box lg:pt-32">
+        <div className="box lg:pt-25">
           <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7">
             Koneksi Stabil, Aplikasi Handal, <span className="font-bold"> Semua dari Satu Tangan.</span>
           </h1>
-          <p className="text-base/8 mb-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia architecto quas aliquam assumenda corrupti deserunt corporis natus veniam maiores.</p>
-          <a href="#" className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full">
+          <p className="text-base/8 mb-7 text-justify">
+            Selamat datang! Kami adalah profesional di bidang Web Development dan IT Solution.  
+            Kami membantu bisnis dan individu membangun solusi digital yang efisien, fungsional, dan menarik.
+          </p>
+          <p className="text-base/8">
+             🔧 Spesialisasi: Web Development, IT Support, dan Otomatisasi Proses  
+          </p>
+          <p className="text-base/8 mb-7">
+            📍 Berbasis di Gresik, melayani klien dari seluruh Indonesia.
+          </p>
+          <a href="#about" className="bg-sky-400 hover:bg-sky-500 transition-all py-2 px-4 text-white shadow rounded-full">
             Tentang Kami <i className="ri-eye-line ms-1"></i>
           </a>
         </div>
@@ -29,33 +38,50 @@ const HomePage = () => {
           <img src={AboutImage} alt="About Image" className="lg:w-[500px] w-[400px] md:m-0 mx-auto"/>
         </div>
         <div className="box order-1 md:order-2">
-          <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7 text-center">
+          <h1 className="lg:text-5xl/tight text-3xl font-medium mb-7 ">
             Tentang Kami
           </h1>
           <p className="text-base/loose text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam officia architecto quas aliquam assumenda corrupti deserunt corporis natus veniam maiores.
+            Kami adalah para profesional di bidang IT dan pengembangan digital. Dengan pengalaman dalam membangun sistem, aplikasi, dan infrastruktur jaringan, kami fokus memberikan solusi teknologi yang tepat guna dan berdampak nyata.
           </p>
+          <p className="mt-8 mb-4">🌱 Keahlian Kami:</p>
+          <ul>
+            <li>- Pengembangan Web</li>
+            <li>- Jaringan & Server</li>
+            <li>- Konsultasi & Automasi Sistem</li>
+          </ul>
+
+
         </div>
       </div>
 
       <div className="services pt-32" id="services">
         <h1 className="text-center lg:text-5xl/tight text-3xl font-medium mb-2">Layanan</h1>
-        <p className="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        {/* <p className="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing.</p> */}
         <div className="services-box pt-12 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
           <div className="box bg-sky-400 rounded-lg shadow p-4">
-            <i className="ri-number-1 text-3xl text-white"></i>
-            <h3 className="text-xl font-bold text-white mt-6 mb-2">Services Name 1</h3>
-            <p className="text-white text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae et facere ea error, sapiente iste.</p>
+            <i className="ri-computer-line text-3xl text-white"></i>
+            <h3 className="text-xl font-bold text-white mt-6 mb-2">Pengembangan Website  </h3>
+            <p className="text-white text-base/loose">
+              Membangun website modern, cepat, dan responsif — dari landing page, company profile, hingga aplikasi kustom.
+            </p>
           </div>
           <div className="box bg-sky-400 rounded-lg shadow p-4">
-            <i className="ri-number-1 text-3xl text-white"></i>
-            <h3 className="text-xl font-bold text-white mt-6 mb-2">Services Name 1</h3>
-            <p className="text-white text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae et facere ea error, sapiente iste.</p>
+            <i className="ri-brain-line text-3xl text-white"></i>
+            <h3 className="text-xl font-bold text-white mt-6 mb-2">Konsultasi & Dukungan IT </h3>
+            <p className="text-white text-base/loose">
+              Membantu Anda memahami dan menerapkan solusi teknologi terbaik untuk kebutuhan pribadi atau bisnis Anda.
+            </p>
           </div>
           <div className="box bg-sky-400 rounded-lg shadow p-4">
-            <i className="ri-number-1 text-3xl text-white"></i>
-            <h3 className="text-xl font-bold text-white mt-6 mb-2">Services Name 1</h3>
-            <p className="text-white text-base/loose">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae et facere ea error, sapiente iste.</p>
+            <i className="ri-earth-line text-3xl text-white"></i>
+            <h3 className="text-xl font-bold text-white mt-6 mb-2">Jaringan & Infrastruktur  </h3>
+            <p className="text-white text-base/loose">Desain dan implementasi jaringan kantor, setup dua ISP dengan failover, dan monitoring jaringan (MikroTik, Linux, Windows Server).</p>
+          </div>
+          <div className="box bg-sky-400 rounded-lg shadow p-4">
+            <i className="ri-instance-line text-3xl text-white"></i>
+            <h3 className="text-xl font-bold text-white mt-6 mb-2">Automasi & Integrasi   </h3>
+            <p className="text-white text-base/loose">Mengotomatisasi tugas-tugas rutin seperti backup data, konversi Excel ke database, notifikasi sistem, dan lainnya.</p>
           </div>
         </div>
       </div>
